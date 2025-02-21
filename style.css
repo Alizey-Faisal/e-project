@@ -11,3 +11,9 @@
     font-size: x-large;
     
 }
+.navbar-brand:hover{
+    color: red;
+}
+.nav-link:hover{
+    color: red;
+}

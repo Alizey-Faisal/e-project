@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-link{
+    color: white;
+    font-size: x-large;
+}
+.navbar-brand{
+    color: white;
+    font-size: x-large;
+    
+}
+.navbar-brand:hover{
+    color: red;
+}
+.nav-link:hover{
+    color: red;
+}
+.image{
+    height: 400px;
+width: 600px;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+display: flex;
+gap: 30px;
+margin: 20px auto;
+}
+.heading{
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+}
+.container{
+    font-style: italic;
+}
