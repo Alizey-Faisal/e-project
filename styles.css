@@ -1,16 +1,40 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+nav {
+    font-family: "DM Sans", sans-serif;
+}
+
+#navbarSupportedContent ul>li>a {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1rem;
 }
 
 .nav-link {
-    color: white;
+    color: white !important;
     font-size: x-large;
 }
 
-.navbar-brand {
+nav .navbar-brand {
     color: white;
     font-size: x-large;
+    width: 25%;
+}
+
+nav .navbar-brand img {
+    width: 100%;
+}
+
+nav .navbar-brand:hover {
+    color: rgb(180, 90, 90);
+}
+
+.nav-link:hover {
+    color: rgb(180, 90, 90) !important;
 }
 
 nav .navbar-brand:focus {
@@ -18,15 +42,12 @@ nav .navbar-brand:focus {
     font-size: x-large;
 }
 
-.navbar-brand:hover {
+.nav-link:focus {
     color: rgb(180, 90, 90);
 }
 
-.nav-link:hover {
-    color: rgb(180, 90, 90);
-}
-.nav-link:focus {
-    color: rgb(180, 90, 90);
+.navbar-toggler {
+    background-color: white;
 }
 
 .image {
@@ -42,13 +63,15 @@ nav .navbar-brand:focus {
 }
 
 .heading {
-
+    font-family: "DM Sans", sans-serif;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     display: flex;
     gap: 30px;
     margin: 20px auto;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 .container {
